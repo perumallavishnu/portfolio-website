@@ -349,7 +349,14 @@ span{
     position: relative;
     padding-left: 2rem;
 }
-
+.education-box{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#grade{
+    color: (--main-color);
+    font-size: 25px;
+}
 .education-box .education-content::before{
     content: "";
     position: absolute;
